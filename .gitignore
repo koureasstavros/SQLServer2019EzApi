@@ -276,3 +276,5 @@ __pycache__/
 # tools/
 
 *.bak
+/EzAPI.nuspec
+/nuget.exe
