@@ -7,6 +7,7 @@ SQLServer2019EzApi is producing SQL Server Packages with the following charateri
 1. Build --> 15
 2. PackageFormatVersion --> 8
 3. TargetSQLServerVersion --> 2019
+4. MicrosoftNetFramework --> 4.6.2
 
 *Based on Microsoft Intructions, SQLServerPackages should be deployed on SQLServer using aligned version of Management Studio.
 **Management Studio deployment wizard may affect the Build and PackageFormatVersion in case of using a newer version of SSMS for deploying package with older TargetSQLServerVersion version.
